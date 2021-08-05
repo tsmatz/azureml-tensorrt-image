@@ -6,7 +6,3 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     libnvinfer8=8.0.1-1+cuda11.3 \
     python3-libnvinfer-dev=8.0.1-1+cuda11.3
-
-RUN pip install nvidia-pyindex
-
-RUN pip install nvidia-tensorrt
